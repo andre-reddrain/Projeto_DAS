@@ -6,6 +6,9 @@
 - Repositório: [https://github.com/andre-reddrain/Projeto_DAS]
 
 ## Branches Criadas
+- **dev**
+    - **Objetivo**: Branch para o desenvolvimento do projeto.
+    - **Merge**: Através de Pull Request. Foi o último branch a dar merge.
 - **feature/salame**
     - **Objetivo**: Adicionar uma receita de salame á página web.
     - **Merge**: Através de Pull Request. Foi o 1º branch a dar merge.
@@ -31,7 +34,11 @@ Quando o branch estava pronto para ser merged com o branch **dev**, era criado u
 Cada pessoa dava assign a si mesmo, e adicionava os outros colegas como reviewers.
 Quando ambos os reviewers dessem o OK, o pull request era realizado.
 
-Foram realizados 3 Pull Requests.
+Foram realizados 4 Pull Requests:
+* Nova receita- Salame - **feature/salame** into **dev**
+* Receita de vinagrete - **feature/vinagrete** into **dev**
+* Feature/mousse - **feature/mousse** into **dev**
+* Dev to Main - **dev** to **main**
 
 ## Conflitos e Resoluções
 Houve conflitos, a partir do 2º merge. Como todos os branches usaram o mesmo template de HTML, era inevitável haver conflitos.
